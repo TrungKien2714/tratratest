@@ -57,12 +57,12 @@
                         <div class="card">
                             <div class="card-body">
                                 <div class="mb-3">
-                                    <label>Full Name</label>
+                                    <label for="fullname">Full Name</label>
                                     <div class="input-group">
                                         <div class="input-group-text">
                                             <i class="bi bi-person"></i>
                                         </div>
-                                        <input class="form-control" type="email" id="email" name="email"
+                                        <input class="form-control" type="text" id="fullName" name="fullName"
                                                value="${sessionScope.customer.fullName}" disabled >
                                     </div>
                                 </div>
